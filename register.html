@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Customer</title>
+    <link href="lab3.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+<form action="#">
+    <div class ="card">
+        <div  class="title">
+            <span> Workshop Registration </span>
+            <span> More Actions</span>
+        </div>
+
+        <div class="container">
+
+            <p class="top-text">
+                <a href="#">Register now while seats are available!</a>
+            </p>
+
+            <div  class="item">
+                <label for="fName">First Name <span class="warning">*</span></label>
+                <input id="fName" type="text" placeholder="First Name required" required/>
+            </div>
+
+            <div  class="item">
+                <label for="lName">Last Name <span class="warning">*</span></label>
+                <input id="lName" type="text" placeholder="Last Name required" required/>
+            </div>
+
+            <div  class="item">
+                <label for="company">Company/Instituion<span class="warning">*</span></label>
+                <input id="company" type="text" placeholder="Name required" required/>
+            </div>
+
+            <div  class="item">
+                <label for="address">Address <span class="warning">*</span></label>
+                <textarea id="address" type="text" rows="5" required/>
+                </textarea>
+            </div>
+            <div  class="item">
+                <label for="city">City</label>
+                <input id="city" type="text" placeholder="" required/>
+            </div>
+
+            <div  class="item">
+                <label for="state">State/Province/Region</label>
+                <select>
+                    <option value="0">-Select-</option>
+                    <option value="1">WA</option>
+                    <option value="2">IA</option>
+                </select>
+            </div>
+
+            <div  class="item">
+                <label for="country">Country</label>
+                <select>
+                    <option value="0">-Select-</option>
+                    <option value="1">U.S</option>
+                    <option value="2">Mongolia</option>
+                </select>
+            </div>
+
+            <div  class="item">
+                <label for="email">Email <span class="warning">*</span></label>
+                <input id="email" type="text" placeholder="Email required" required/>
+            </div>
+
+            <div  class="item">
+                <label for="phone">Phone Number <span class="warning">*</span></label>
+                <input id="phone" type="text" placeholder="Phone required" required/>
+            </div>
+            <div class="item">
+                <a href="#">Lunch</a>
+            </div>
+            <div  class="item">
+                <label for="meal">Meal Preference</label>
+                <select>
+                    <option value="0">-Select-</option>
+                    <option value="1" selected>Vegetarian</option>
+                    <option value="2">Not Vegetarian</option>
+                </select>
+            </div>
+
+            <div class="item">
+                <a href="#">Payment Details</a>
+            </div>
+
+            <div class="item">
+                <label for="paymentMode">Payment Mode</label>
+
+                <ul style="width:100%" id="paymentMode">
+                    <li>
+                        <input type="checkbox" id="paymentCash" name="paymentMode" value="Cash">
+                        <label for="paymentCash">Cash</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="paymentCheque" name="paymentMode" value="Cheque">
+                        <label for="paymentCheque">Cheque</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="paymentDraft" name="paymentMode" value="Demand Draft">
+                        <label for="paymentDraft">Demand Draft</label>
+                    </li>
+                </ul>
+            </div>
+
+            <div  class="item">
+                <label for="DD">DD/Cheque No.</label>
+                <input id="city" type="text"/>
+            </div>
+
+            <div  class="item">
+                <label for="drawn">Drawn On (Bank Name)</label>
+                <input id="drawn" type="text"/>
+            </div>
+
+            <div  class="item">
+                <label for="payable">Payable at</label>
+                <input id="payable" type="text"/>
+            </div>
+
+
+        </div>
+        <button class="bottom-btn-submit" type="submit">Submit</button>
+        <button class="bottom-btn-reset" type="submit">Reset</button>
+
+    </div>
+
+</form>
+
+</body>
+</html>
