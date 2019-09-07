@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 05</title>
+    <link href="lab05.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div class=container>
+
+    <fieldset>
+        <legend>Lab05:02 Find Maximum of Two Elements:</legend>
+        <label for="value1">Input value 1</label>
+        <input id="value1" type="text" placeholder="For example: 10.5" onfocus="this.value=''"/>
+        <br/>
+
+        <label for="value2">Input value 2</label>
+        <input id="value2" type="text" placeholder="For example: 11.5" onfocus="this.value=''"/>
+        <br/>
+
+        <button onclick="getMax()">Get Max</button>
+        <br/>
+
+        <label for="result1">Result: </label>
+        <input id="result1" type="text" readonly/>
+
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Lab05:03 Find Maximum of Three Elements:</legend>
+        <label for="value21">Input value 1</label>
+        <input id="value21" type="text" placeholder="For example: 10.5" onfocus="this.value=''"/>
+        <br/>
+
+        <label for="value22">Input value 2</label>
+        <input id="value22" type="text" placeholder="For example: 11.5" onfocus="this.value=''"/>
+        <br/>
+
+        <label for="value23">Input value 3</label>
+        <input id="value23" type="text" placeholder="For example: 12.5" onfocus="this.value=''"/>
+        <br/>
+        <button onclick="getMaxOfThree()">Get Max</button>
+        <br/>
+        <label for="result2">Result: </label>
+        <input id="result2" type="text" readonly/>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Lab05:04 The Character is Vowel?</legend>
+        <label for="value31">Input a character</label>
+        <input id="value31" type="text" placeholder="input single character" onfocus="this.value=''" pattern="/w{1}"/>
+        <br/>
+        <button onclick="isVowel()">Submit</button>
+        <br/>
+        <label for="result31">Result: </label>
+        <p class="result" id="result31" type="text">--</p>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Lab05:05 Sum and Multiply Areas</legend>
+        <label for="textArea1">Input Array Elements</label>
+            <textarea id="textArea1" placeholder="-1,2,3,4" onfocus="this.value=''"   rows="3" cols="20">
+            </textarea>
+        <br/>
+        <button onclick="lab0505()">Submit</button>
+        <br/>
+        <label for="result51">Result Sum: </label>
+        <p class="result" id="result51" type="text"> - </p>
+
+        <label for="result52">Result Multiply: </label>
+        <p class="result" id="result52" type="text"> - </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Lab05:06 Reverse String</legend>
+        <label for="value61">Input a string</label>
+        <input id="value61" type="text" placeholder="type string" onfocus="this.value=''"/>
+        <br/>
+        <button onclick="reverse()">Submit</button>
+        <br/>
+        <label for="result61">Result: </label>
+        <p class="result" id="result61" type="text">--</p>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Lab05:07 Find Longest Word</legend>
+        <label for="textArea57">Type words</label>
+        <textarea id="textArea57" placeholder="Hello my sample" onfocus="this.value=''" >
+            </textarea>
+        <br/>
+        <button onclick="findLongestWord()">Submit</button>
+        <br/>
+        <label for="result57">Result: </label>
+        <p class="result" id="result57" type="text"> - </p>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Lab05:08 Filter Long Words</legend>
+        <label for="textArea58">Type words</label>
+        <textarea id="textArea58" placeholder="Hello my sample" onfocus="this.value=''" >
+            </textarea>
+        <br/>
+        <label for="value58">Input number i</label>
+        <input id="value58" type="text" onfocus="this.value=''" />
+        <br />
+
+        <button onclick="filterLongestWord()">Submit</button>
+        <br/>
+        <label for="result58">Result: </label>
+        <p class="result" id="result58" type="text"> - </p>
+
+    </fieldset>
+
+</div>
+<script type="text/javascript" src="lab05m.js"></script>
+</body>
+</html>
