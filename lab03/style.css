@@ -1,0 +1,184 @@
+body {
+	font: 12px Verdana;
+	color: #000;
+	background: #DFE3BA; margin: 5px 0 5px 50%;
+}
+a:link, a:visited {
+	font: 12px "Trebuchet MS", Verdana;
+	text-decoration: underline;
+	color: #000;
+}
+a:hover, a:active {
+	font: 12px "Trebuchet MS", Verdana;
+	text-decoration: none;
+	color: rgb(162, 194, 224);
+}
+.page-wrapper {
+	position: relative;
+	width: 666pt;
+	
+	margin: 0 0 0 -333pt;
+	border: 5px solid #FFF;
+}
+h3 {
+	color: #A03E19;
+	font: 22px "Trebuchet MS", Verdana;
+	margin: 0;
+	text-transform: lowercase;
+}
+abbr {
+	border: 1px;
+	font-style: normal;
+}
+
+header {
+	height: 350px;
+	border: 1px solid black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background: #ADB583 url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/mongolia-land-of-the-eternal-blue-sky-paul-meijering.jpg) no-repeat bottom left;
+}
+h1, h2 {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.summary {
+	margin-top: 50px;
+	width: 430px;
+	margin-left: 250px;
+	color: #42443A;
+	
+}
+.summary a:link, .summary a:visited {
+	color: #42443A;
+}
+.summary a:hover, .summary a:active {
+	color: #42443A;
+}
+.summary p:first-child {
+	display: none;
+}
+.preamble, .supporting {
+	text-align: justify;
+	width: auto;
+	margin: 15px 15px 45px 250px;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-top-right-radius: 20%;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 10%;
+}
+footer { 
+	position: relative; 
+	left: 30px; 
+	width: 400px;
+	height: 20px; 
+	padding: 78px 0 0 50px; 
+	
+	
+}
+p{
+	margin: 20px 40px 20px 40px;
+}
+footer a:link, footer a:visited {
+	color: #61A7BC;
+	text-decoration: none;
+}
+footer a:hover, footer a:active {
+	color: rgb(213, 243, 42);
+	text-decoration: none;
+}
+.extra1, .extra2, .extra3, .extra4, .extra5, .extra6 {
+	display: none;
+}
+
+/* Left Bar */
+.page-wrapper .sidebar {
+	position: absolute;
+	left: 18px;
+	top: 340px;
+	width: 198px;
+	font: 10px "Trebuchet MS", Verdana;
+	background-color:#666;
+	border-top-right-radius: 20%;
+	border-top-left-radius: 90%;
+	border-bottom-left-radius: 90%;
+	
+}
+.sidebar h3 {
+	
+	width: 198px;
+	height: 18px;
+	margin-top: 20px;
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.sidebar h3.select {
+	background: red;
+	border-top-left-radius: 90%;
+}
+.sidebar h3.archives {
+	background: blue;
+	border-top-left-radius: 90%;
+}
+.sidebar h3.resources {
+	background: green;
+	border-top-left-radius: 90%;
+}
+.sidebar h3.favorites {
+	background: orange;
+	border-top-left-radius: 90%;
+}
+
+.sidebar ul {
+	list-style: none;
+	padding: 0 0 18px 0;
+	margin: 0;
+	background-color: coral;
+	border-bottom-right-radius: 70%;
+}
+.sidebar ul li {
+	padding: 5px 10px 5px 10px;
+	border-bottom: 1px solid #1A4861;
+	margin: 0;
+	border-bottom-right-radius: 50%;
+}
+.sidebar ul li:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.sidebar .design-selection {
+	color: #666;
+}
+.sidebar ul li a {
+	font: 14px "Trebuchet MS", Verdana;
+	display: inline;
+	color: #000;
+	text-transform: none;
+	text-decoration: none;
+}
+.sidebar .design-selection ul li a {
+	font: 14px "Trebuchet MS", Verdana;
+	display: block;
+	color: #000;
+	text-transform: none;
+	text-decoration: none;
+}
+
+.sidebar .design-selection ul li a.designer-name, .sidebar ul li a.designer-name {
+	display: inline;
+	font: 10px "Trebuchet MS", Verdana;
+	color: #666;
+	text-transform: none;
+	text-decoration: none;
+}
+.sidebar ul li:hover a, .sidebar .design-selection ul li:hover a {
+	font: 16px "Trebuchet MS", Verdana;
+	color: #FFF;
+	text-decoration: none;
+	
+	
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="swapText();">Click me!</button>
+<span id="output2">Hello</span>
+<input id="textbox2" type="text" value="Goodbye" />
+<button onclick="swapImg();">Click me!</button>
+<div>
+<img id="happy" src="https://www.littlebabylife.com/wp-content/uploads/2018/04/happy-baby-1.jpg" width="50px"/>
+</div><div>
+<img id="sad" src="https://i.imgflip.com/1msgc3.jpg" width="50px"/>
+</div>
+
+
+
+<script>
+
+
+    function swapText() {
+        var span = document.getElementById("output2");
+        var textBox = document.getElementById("textbox2");
+        var temp = span.innerHTML;
+        span.innerHTML = textBox.value;
+        textBox.value = temp;
+    }
+    function swapImg() {
+
+        var happy = document.getElementById("happy");
+        var sad = document.getElementById("sad");
+
+        var temp = happy.src;
+        happy.src = sad.src;
+        sad.src = temp;
+    }
+
+
+
+
+
+
+</script>
+</body>
+</html>
