@@ -52,7 +52,7 @@
     }
 
     function sizeChange() {
-        document.getElementById('txtarea').style.fontSize = document
+        document.getElementById('txtarea').style.font = document
             .getElementById('fontsize').value;
     }
 
