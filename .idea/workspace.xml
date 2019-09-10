@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac0efb9c-de6e-48ba-9966-cf2a00f5914e" name="Default Changelist" comment="" />
+    <list default="true" id="cb6ba8c5-0af5-4049-82b9-0a4c67c160a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lab07/lab05Upgraded/jsTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/lab05Upgraded/lab05.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/lab05Upgraded/lab05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/lab05Upgraded/lab05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/lab05Upgraded/lab05m.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab07/ascii.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab07/ascii.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab07/ascii.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab07/ascii.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-        <option value="HTML File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectId" id="1QL4Yabvfj3KhriN5mSREfjVnIA" />
+  <component name="ProjectId" id="1Qd3quDjV7JFjB8CezgyoEstnbD" />
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab05" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab07" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sdblg\Documents\WAP\WorkSpace\LabsStatic\lab05" />
+      <recent name="C:\Users\sdblg\Documents\WAP\WorkSpace\git\wap\lab07" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -51,17 +50,27 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ac0efb9c-de6e-48ba-9966-cf2a00f5914e" name="Default Changelist" comment="" />
-      <created>1567536590335</created>
+      <changelist id="cb6ba8c5-0af5-4049-82b9-0a4c67c160a6" name="Default Changelist" comment="" />
+      <created>1568086839830</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1567536590335</updated>
-      <workItem from="1567536593404" duration="37175000" />
-      <workItem from="1567825914664" duration="26382000" />
+      <updated>1568086839830</updated>
+      <workItem from="1568086843513" duration="4486000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

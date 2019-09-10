@@ -1,25 +1,26 @@
-var theTextArea = document.getElementById('txtarea'),
+let theTextArea = document.getElementById('txtarea'),
     theStartButton = document.getElementById('start'),
     theStopButton = document.getElementById('stop'),
     theSelectedAnimation = document.getElementById('animation'),
     theSelectedSize = document.getElementById('fontsize'),
     theSelectedSpeed = document.getElementById('turbo');
+let pTest = document.getElementById('pTest');
 
-(function(){
 
 
-let timerId = null;
+let timerId1 = null;
+let timerId2 = null;
+
 window.onload = main;
 
 
 function main(){
-    
     theStartButton.onclick = startPlay;
     theStopButton.onclick = stopPlay;
 
 
 }
-var exercise = EXERCISE.split('=====\n');
+let exercise = EXERCISE.split('=====\n');
 function startPlay(){
     
     // for( e of exercise){
@@ -48,23 +49,33 @@ function startPlay(){
 }
 function playing(animArea, isTurbo){
    //alert("before for of");
-   timerId = setInterval(() =>{
-    for(a of animArea){
-  
-       alert(a);
-       // setTimeout(() => theTextArea.value = a, 1000);
-  //     theTextArea.value = '';
-       setTimeout(()=>theTextArea.value = a, 500);
-       
-
-    }}, 500); 
+   timerId1 = setInterval(()=>sub(animArea), 500); 
 }
+
+function sub(animArea){
+     
+    for(let a of animArea){
+        theTextArea.value = a;
+        pTest.innerText = a;
+        //alert(theTextArea.value);
+        let i = 0;
+        while(i < 1000000){
+            i++;
+        }
+
+        // timerId2 = setTimeout(()=>{
+        // //alert(a);
+        // }, 2000);
+    }
+
+}
+
 function stopPlay(){
     theStartButton.disabled = false;
     // alert(theSelectedAnimation.value + theSelectedSize.value + theSelectedSpeed.checked);
      theStopButton.disabled = true;
-     clearInterval(timerId);
+     clearInterval(timerId1);
+     clearTimeout(timerId2)
      //alert("stop disabled" + timerId);
  
-};
-})();
+}

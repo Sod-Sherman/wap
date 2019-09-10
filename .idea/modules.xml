@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LabsStatic.iml" filepath="$PROJECT_DIR$/LabsStatic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wap.iml" filepath="$PROJECT_DIR$/wap.iml" />
     </modules>
   </component>
 </project>
