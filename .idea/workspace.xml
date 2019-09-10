@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb6ba8c5-0af5-4049-82b9-0a4c67c160a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lab07/lab05Upgraded/jsTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab07/lab05Upgraded/lab05.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab07/lab05Upgraded/lab05.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab07/lab05Upgraded/lab05.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab07/lab05Upgraded/lab05m.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab07/ascii.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab07/ascii.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab07/ascii.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab07/ascii.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab05/jsTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/jsTest.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568086839830</updated>
-      <workItem from="1568086843513" duration="4486000" />
+      <workItem from="1568086843513" duration="4578000" />
     </task>
     <servers />
   </component>
