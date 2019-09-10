@@ -1,81 +1,66 @@
-let theTextArea = document.getElementById('txtarea'),
-    theStartButton = document.getElementById('start'),
-    theStopButton = document.getElementById('stop'),
-    theSelectedAnimation = document.getElementById('animation'),
-    theSelectedSize = document.getElementById('fontsize'),
-    theSelectedSpeed = document.getElementById('turbo');
-let pTest = document.getElementById('pTest');
+(function() {
+    let timeId;
+    let prvVal;
+    let stop;
+    const NORMALSPEED = 250;
+    const TURBOSPEED = 50;
+    let timeInterval = NORMALSPEED;
+    let text;
+    let idx;
 
+    function changeContent() {
+        document.getElementById('txtarea').value = text[idx];
+        idx = (idx + 1) % text.length;
+        if (!stop)
+            setTimeout(changeContent, timeInterval);
+    };
 
+    function disableInputs(truth) {
+        document.getElementById('start').disabled = truth;
+        document.getElementById('stop').disabled = !truth;
+        document.getElementById('animation').disabled = truth;
+        document.getElementById('txtarea').readOnly = truth;
+    };
 
-let timerId1 = null;
-let timerId2 = null;
+    function startClick() {
+        prvVal = document.getElementById('txtarea').value;
+        text = prvVal.split("=====\n");
+        idx = 0;
+        stop = false;
+        setTimeout(changeContent, timeInterval);
+        disableInputs(true);
+    };
 
-window.onload = main;
+    function stopClick() {
+        stop = true;
+        setTimeout(function() {
+            document.getElementById('txtarea').value = prvVal;
+        }, timeInterval);
+        disableInputs(false);
+    };
 
-
-function main(){
-    theStartButton.onclick = startPlay;
-    theStopButton.onclick = stopPlay;
-
-
-}
-let exercise = EXERCISE.split('=====\n');
-function startPlay(){
-    
-    // for( e of exercise){
-    //     theTextArea.value = '11';
-    //     theTextArea.value = e;
-    //     alert(e);
-    // }
-    theStartButton.disabled = true;
-    theStopButton.disabled = false;
-   //alert(theSelectedAnimation.value + theSelectedSize.value + theSelectedSpeed.checked);
-  
-   
-   switch(theSelectedAnimation.value){
-       case 'Exercise': 
-    //    let exercise = EXERCISE.split('=====\n');
-    //    let blank = BLANK;
-    //    let juggler = JUGGLER.split()
-        let animArea = EXERCISE.split('=====\n');
-     //  while(!theStopButton.disabled){
-            //setTimeout(() => playing(animArea, theSelectedSpeed.checked), 1000);
-            playing(animArea, 1);
-       // }
-       break;
-
-   }
-}
-function playing(animArea, isTurbo){
-   //alert("before for of");
-   timerId1 = setInterval(()=>sub(animArea), 500); 
-}
-
-function sub(animArea){
-     
-    for(let a of animArea){
-        theTextArea.value = a;
-        pTest.innerText = a;
-        //alert(theTextArea.value);
-        let i = 0;
-        while(i < 1000000){
-            i++;
-        }
-
-        // timerId2 = setTimeout(()=>{
-        // //alert(a);
-        // }, 2000);
+    function animationChange() {
+        let animType = document.getElementById('animation').value;
+        document.getElementById('txtarea').value = ANIMATIONS[animType];
     }
 
-}
+    function speedChange() {
+        if (document.getElementById('turbo').checked) {
+            timeInterval = TURBOSPEED;
+        } else
+            timeInterval = NORMALSPEED;
+    }
 
-function stopPlay(){
-    theStartButton.disabled = false;
-    // alert(theSelectedAnimation.value + theSelectedSize.value + theSelectedSpeed.checked);
-     theStopButton.disabled = true;
-     clearInterval(timerId1);
-     clearTimeout(timerId2)
-     //alert("stop disabled" + timerId);
- 
-}
+    function sizeChange() {
+        document.getElementById('txtarea').style.fontSize = document
+            .getElementById('fontsize').value;
+    }
+
+    window.onload = function() {
+        document.getElementById('start').onclick = startClick;
+        document.getElementById('stop').onclick = stopClick;
+        document.getElementById('animation').onchange = animationChange;
+        document.getElementById('turbo').onchange = speedChange;
+        document.getElementById('fontsize').onchange = sizeChange;
+    };
+})();
