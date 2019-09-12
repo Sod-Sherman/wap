@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb6ba8c5-0af5-4049-82b9-0a4c67c160a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lab09/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab09/lab09.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab09/lab09.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab09/lab09.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab09/maze.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab09/maze.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab09/maze.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab07/asciiMy.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab07/asciiMy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab09/lab09.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab09/lab09.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568086839830</updated>
       <workItem from="1568086843513" duration="33478000" />
-      <workItem from="1568241370551" duration="15292000" />
+      <workItem from="1568241370551" duration="15460000" />
     </task>
     <servers />
   </component>

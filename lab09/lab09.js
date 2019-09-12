@@ -24,7 +24,7 @@ $(function () {
             event.preventDefault();
         }
 
-        displayError("Submitted!");
+       // displayError("Submitted!");
 
     }
 
