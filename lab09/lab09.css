@@ -1,0 +1,54 @@
+.container{
+    margin: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    width: 20%;
+}
+label.list{
+    margin-left: 0;
+}
+
+input{
+    width: 20%;
+}
+
+input>select button{
+    width: 0%;
+}
+select{
+    width: 10%;
+}
+label{
+    margin: 10px 0 0 0;
+}
+fieldset{
+    border: solid 1px;
+    margin-top: 10px;
+    width: 40%;
+}
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+textarea{
+    width: 40%;
+}
+input.button {
+    display: inline-flex;
+    margin: 5px;
+    width: 10%;
+}
+.status{
+    color: red;
+}
+
+

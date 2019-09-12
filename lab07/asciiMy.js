@@ -12,7 +12,20 @@ let timerId2 = null;
 
 
 
-    theStartButton.onclick = startPlay;
+    theStartButton.onclick = ()=>{
+        function helper(i){
+                theTextArea.value = i.toString();
+                return i;
+        }
+        for(let i=0; i<1000; i++){
+            let del=0;
+            while(del<1000){
+                del++;
+                console.log(del)
+            }
+            helper(i);
+        }
+    };
     theStopButton.onclick = stopPlay;
 
 
@@ -46,31 +59,43 @@ function startPlay(){
 }
 function playing(animArea, isTurbo){
    //alert("before for of");
-   timerId1 = setInterval(()=>sub(animArea), 500); 
+   timerId1 = setInterval(()=>sub(animArea), 1500);
 }
 
-function sub(animArea){
-     let temp = 0;
+let pose = 0;
+
+function sub(animArea) {
+    // if (pose < animArea.length-1){
+    //     theTextArea.value = animArea[pose];
+    //     pose++;
+    // }else{
+    //     theTextArea.value= animArea[pose];
+    //     pose = 0;
+    // }
+    let temp = 0;
+     // console.log(animArea);
     for(let a of animArea){
-        theTextArea.value = a.toString();
+        // console.log(a);
+        console.log(theTextArea.value)
        // pTest.innerText = a;
-        alert(theTextArea.value);
+       //  alert(theTextArea.value);
         let i = 0;
-        while(i < 1000000){
+        while(i < 100){
             i++;
+            // console.log("loop1: " + i)
         }
         temp++;
-        theTextArea.value = temp.toString();
-        i = 0;
-        while(i < 1000000){
-            i++;
-        }
+        // theTextArea.value = temp.toString();
 
+        theTextArea.innerHTML = a;
+
+        console.log(a);
         // timerId2 = setTimeout(()=>{
         // //alert(a);
         // }, 2000);
-    }
 
+    }
+    console.log("Done")
 }
 
 function stopPlay(){

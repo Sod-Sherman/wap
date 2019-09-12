@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb6ba8c5-0af5-4049-82b9-0a4c67c160a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lab09/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab09/lab09.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab09/lab09.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab09/lab09.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab09/maze.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab09/maze.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab09/maze.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab08/lab08.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab08/lab08.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab07/asciiMy.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab07/asciiMy.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -32,6 +41,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lab07" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -60,7 +71,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568086839830</updated>
-      <workItem from="1568086843513" duration="26880000" />
+      <workItem from="1568086843513" duration="33478000" />
+      <workItem from="1568241370551" duration="15292000" />
     </task>
     <servers />
   </component>
@@ -72,7 +84,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

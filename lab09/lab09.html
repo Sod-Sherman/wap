@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab09</title>
+    <link href="lab09.css" type="text/css" rel="stylesheet"/>
+    <script src="jquery.min.js" type="text/javascript"></script>
+    <script src="lab09.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="container">
+    <form id="myFormId" class="form" action="#" method="post">
+        <div class="card">
+
+            <p class="status" id="status"></p>
+
+            <label for="name">Name</label>
+            <input id="name" name="name" pattern="[A-Za-z\s]{1,}" required title="Letters at least 1 letter"/>
+
+            <label for="street">Street</label>
+            <input id="street" name="street" required/>
+
+            <label for="state">State</label>
+            <select id="state">
+                <option>Select One</option>
+                <option value="IA">IA</option>
+                <option value="WA">WA</option>
+                <option value="NV">NV</option>
+            </select>
+
+            <label for="zip">ZIP code</label>
+            <input id="zip" name="zip" pattern="\d{5}" title="5 digits" required/>
+
+            <label for="seat">How many seats?</label>
+            <input id="seat" name="seat" pattern="\d+" title="Numbers only" required/>
+
+            <fieldset id="f1">
+                <legend>Which taxi do you require?</legend>
+
+                <ul>
+                    <li>
+                        <input type="radio" id="car" name="taxi" value="car"/>
+                        <label class="list" for="car">Car</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="van" name="taxi" value="van"/>
+                        <label class="list" for="van">Van</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="tuk" name="taxi" value="tuk"/>
+                        <label class="list" for="tuk">Tuk tuk</label>
+                    </li>
+                </ul>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Extras</legend>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="babySeat" name="babySeat" value="babySeat"/>
+                        <label class="list" for="babySeat">Baby Seat</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="wheelChair" name="wheelChair" value="wheelChair"/>
+                        <label class="list" for="wheelChair">Wheelchair Access</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="stockTip" name="stockTip" value="stockTip"/>
+                        <label class="list" for="stockTip">Stock Tip</label>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <label for="textArea">Special Instructions</label>
+            <textarea name="textArea" id="textArea" rows="3" cols="10"></textarea>
+            <input class="button" type="submit" value="Submit Booking">
+            <input class="button" type="reset" value="RESET">
+
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
