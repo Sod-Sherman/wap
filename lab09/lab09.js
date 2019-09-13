@@ -1,13 +1,13 @@
 $(function () {
     "use restrict";
-
-
     function displayError(msg) {
-        $('#status').text(msg);
+        $('#status').append(msg+'<br />');
         console.log(msg);
     }
 
     function checkValidate(event) {
+        event.preventDefault();
+        let flag = true;
         let seatNumber = $('#seat').val();
         let radioValue = $("input[name='taxi']:checked").val();
         let extraFieldValue = $("input[type='checkbox']:checked").val();
@@ -15,16 +15,23 @@ $(function () {
         //let checkBoxValue = $("input[name='checkbox']:checked").val();
         if (seatNumber > 200 || seatNumber < 1) {
             displayError('You cannot book more than 200 seats');
-            event.preventDefault();
-        } else if(!radioValue) {
+            flag = false;
+        }
+        if(!radioValue) {
             displayError("Select Taxi types!");
-            event.preventDefault();
-        } else if(!extraFieldValue){
+            flag = false;
+        }
+        if(!extraFieldValue){
             displayError("Select Extras condition!");
-            event.preventDefault();
+            flag = false;
         }
 
-       // displayError("Submitted!");
+        if(flag){
+            $('#status').empty();
+            displayError("Submitted!");
+            this.submit();
+        }
+
 
     }
 
