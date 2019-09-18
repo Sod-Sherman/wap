@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div,span{
+            border: 1px solid;
+        }
+        #a{
+            height: 500px;
+            border-color: pink;
+        }
+        .floaty{
+            float: right;
+            border-color: red;
+            width: 100px;
+            height: 50px;
+        }
+        #d{
+            clear: left;
+            position: relative;
+            height: 100px;
+            border-color: green;
+            top: 10px;
+        }
+        #e{
+            position: absolute;
+            bottom: 0;
+            left: 0
+
+        }
+    </style>
+</head>
+<body>
+<div id="a">A
+    <div>B</div>
+    <div class="floaty" id="c">C</div>
+    <div id="d">D
+        <div id="e">E</div>
+    </div>
+
+</div>
+</body>
+</html>

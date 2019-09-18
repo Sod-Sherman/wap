@@ -2,7 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb6ba8c5-0af5-4049-82b9-0a4c67c160a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lab09/lab09.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab09/lab09.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/src/main/webapp/java/edu/mum/calc/MyImprovedCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/src/main/webapp/java/edu/mum/calc/MySimpleCalcServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/src/main/webapp/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/target/calculator.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/target/calculator/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/target/calculator/WEB-INF/classes/META-INF/calculator.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/target/calculator/WEB-INF/classes/edu/mum/calc/MyImprovedCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/target/calculator/WEB-INF/classes/edu/mum/calc/MySimpleCalcServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/target/calculator/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/target/calculator/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/target/calculator/java/edu/mum/calc/MyImprovedCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/target/calculator/java/edu/mum/calc/MySimpleCalcServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/target/calculator/simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/target/classes/META-INF/calculator.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/target/classes/edu/mum/calc/MyImprovedCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator/target/classes/edu/mum/calc/MySimpleCalcServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/midtermPrepare/23.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/midtermPrepare/midtermPrepare.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/midtermPrepare/signupform/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/midtermPrepare/signupform/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/midtermPrepare/signupform/signup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/src/main/java/edu/mum/wap/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/src/main/java/edu/mum/wap/QuestionInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/src/main/java/edu/mum/wap/Quiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/src/main/java/edu/mum/wap/QuizServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/target/classes/META-INF/quizdemo.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/target/classes/edu/mum/wap/Question.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/target/classes/edu/mum/wap/QuestionInit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/target/classes/edu/mum/wap/Quiz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/target/classes/edu/mum/wap/QuizServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/target/quizdemo.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/target/quizdemo/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/target/quizdemo/WEB-INF/classes/META-INF/quizdemo.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/target/quizdemo/WEB-INF/classes/edu/mum/wap/Question.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/target/quizdemo/WEB-INF/classes/edu/mum/wap/QuestionInit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/target/quizdemo/WEB-INF/classes/edu/mum/wap/Quiz.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/target/quizdemo/WEB-INF/classes/edu/mum/wap/QuizServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizdemo/target/quizdemo/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,9 +71,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -29,14 +87,19 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab07" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/midtermPrepare/signupform" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sdblg\Documents\WAP\WorkSpace\git\wap\midtermPrepare\signupform" />
       <recent name="C:\Users\sdblg\Documents\WAP\WorkSpace\git\wap\lab07" />
     </key>
   </component>
@@ -63,7 +126,8 @@
       <option name="presentableId" value="Default" />
       <updated>1568086839830</updated>
       <workItem from="1568086843513" duration="33478000" />
-      <workItem from="1568241370551" duration="15460000" />
+      <workItem from="1568241370551" duration="17264000" />
+      <workItem from="1568262620282" duration="21932000" />
     </task>
     <servers />
   </component>

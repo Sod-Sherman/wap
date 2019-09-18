@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div, p{
+            color: aqua;
+            background-color: red;
+        }
+        div #main p {
+            color: yellow;
+            background-color: indigo;
+        }
+        span{
+            color: gray;
+        }
+        .primary{
+            color: tomato;
+            background-color: chocolate;
+        }
+        p.primary{
+            color: black;
+        }
+        #third p {
+            color: plum;
+        }
+        ul>li>p{
+            color: yellow;
+            background-color: peachpuff;
+        }
+    </style>
+</head>
+<body>
+<div id = "main">
+    <p class="primary">One</p>
+    <div>
+        <div class="spaceships">
+            <p class="primary">Two</p>
+            <ul>
+                <li id="third">
+                    <p>Three</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
