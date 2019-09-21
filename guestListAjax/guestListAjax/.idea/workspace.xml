@@ -7,13 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87d49c4f-e1f4-4e1e-9a0e-7b45cb9a30e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/GuestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/GuestServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/guests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/guests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/GuestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/GuestServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/guestlistAjax-1.0-SNAPSHOT/WEB-INF/classes/controller/GuestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/guestlistAjax-1.0-SNAPSHOT/WEB-INF/classes/controller/GuestServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/guestlistAjax-1.0-SNAPSHOT/resources/js/guests.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/guestlistAjax-1.0-SNAPSHOT/resources/js/guests.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +33,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1R4wVIkBgXgHXXYfMdbeh117iQn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -147,7 +144,7 @@
       <workItem from="1568939701013" duration="6413000" />
       <workItem from="1569043162500" duration="470000" />
       <workItem from="1569043684909" duration="4047000" />
-      <workItem from="1569100087489" duration="274000" />
+      <workItem from="1569100087489" duration="1584000" />
     </task>
     <servers />
   </component>
@@ -166,5 +163,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
