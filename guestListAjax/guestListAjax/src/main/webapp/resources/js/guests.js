@@ -18,7 +18,7 @@ function updateGuests() {
 function displayGuests(data) {
    // var guestList = "You need to modify this method to display the updated guest list.  Remember to build the entire list before adding it to the DOM.";
 
-    let list = $("===><ul>");
+    let list = $('<ul>');
     for (let i = 0; i < data.length; i++) {
         list.append($('<li>', {'html': data[i].first + " " + data[i].last}, '</li>'));
     }

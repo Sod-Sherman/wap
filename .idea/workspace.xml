@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb6ba8c5-0af5-4049-82b9-0a4c67c160a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/beer.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guestListAjax/guestListAjax/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guestListAjax/guestListAjax/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guestListAjax/guestListAjax/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guestListAjax/guestListAjax/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guestListAjax/guestListAjax/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guestListAjax/guestListAjax/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guestListAjax/guestListAjax/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guestListAjax/guestListAjax/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guestListAjax/guestListAjax/src/main/webapp/resources/js/guests.js" beforeDir="false" afterPath="$PROJECT_DIR$/guestListAjax/guestListAjax/src/main/webapp/resources/js/guests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guestListAjax/guestListAjax/target/guestlistAjax-1.0-SNAPSHOT/resources/js/guests.js" beforeDir="false" afterPath="$PROJECT_DIR$/guestListAjax/guestListAjax/target/guestlistAjax-1.0-SNAPSHOT/resources/js/guests.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

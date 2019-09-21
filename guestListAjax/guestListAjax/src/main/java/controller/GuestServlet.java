@@ -37,14 +37,13 @@ public class GuestServlet extends HttpServlet {
         List<Guest> guestList = (List<Guest>) sess.getAttribute("guestList");
         if (guestList == null) {
             guestList = new ArrayList<Guest>();
-            sess = request.getSession();
-            sess.setAttribute("guestList", guestList);
         }
 
         /* get  input */
         String firstInput = request.getParameter("first");
         String lastInput = request.getParameter("last");
         guestList.add(new Guest(firstInput, lastInput));
+        sess.setAttribute("guestList", guestList);
         
         String JSONguests;
         JSONguests = new Gson().toJson(guestList);
